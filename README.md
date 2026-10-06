@@ -42,7 +42,7 @@ $$L_{\alpha}(y, \hat{y}) = \max(\alpha(y - \hat{y}), (\alpha - 1)(y - \hat{y}))$
 Le modèle apprend ainsi les relations complexes entre les variables macroéconomiques et les chocs résiduels pour tracer un seuil de risque dynamique. 
 L'estimation finale de la VaR s'exprime par : 
 
-$$VaR_{t}^{\alpha=5\%} = \hat{r}_{t, ARIMA} + \hat{\epsilon}_{t, Quantile}$$
+$$ \text{VaR}_{t} = \hat{r}_{t, \text{ARIMA}} + \hat{\epsilon}_{t, \text{Quantile}} $$
 
 ---
 
